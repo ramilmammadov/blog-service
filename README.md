@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# blog-service
-=======
 # Blog Service - Spring Boot Microservice
 
 ## 📌 Project Overview
@@ -169,5 +166,3 @@ Once enabled, API docs are available at:
 ---
 
 🚀 **Enjoy Building Your Microservice!** 🎯
-
->>>>>>> task-1
