@@ -1,0 +1,17 @@
+# Use a full JDK 21 image for local development
+FROM eclipse-temurin:21-jdk
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy only the necessary files for local development
+COPY . .
+
+# Install dependencies (e.g., if you're using Maven Wrapper)
+RUN ./mvnw clean install
+
+# Expose the application port for local access
+EXPOSE 8080
+
+# Set the default command to run the app in local mode
+ENTRYPOINT ["java", "-jar", "target/blog-service.jar"]
