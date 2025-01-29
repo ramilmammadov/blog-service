@@ -1,0 +1,6 @@
+# Dockerfile.test
+FROM openjdk:21
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean test
