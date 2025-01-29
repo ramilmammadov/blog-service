@@ -39,8 +39,7 @@ This is a **Spring Boot-based microservice** for a **Blog Application** that sup
 3. **Authorization Based on User Roles**
     - Allowed **only authenticated users** to access API.
     - Restricted **admin-only endpoints**.
-    - Used `@PreAuthorize` for method-level security.
-
+  
 4. **Swagger API Documentation with Security**
     - Integrated **SpringDoc OpenAPI**.
     - Enabled JWT authentication in Swagger UI.
