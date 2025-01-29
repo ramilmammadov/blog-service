@@ -162,7 +162,3 @@ Once enabled, API docs are available at:
 
 ## **👥 Author**
 - **Ramil Mammadov**
-
----
-
-🚀 **Enjoy Building Your Microservice!** 🎯
